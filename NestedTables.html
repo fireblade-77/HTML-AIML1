@@ -1,42 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nested Tables</title>
     <style>
-        table, 
-        th,
-        td {border: 2px solid black ;
-        }
+      table,
+      th,
+      td {
+        border: 2px solid black;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <table>
-        <caption>Nested Tables</caption>
-        <tr> 
-            <td>Main Table row 1 column 1</td>
-            <td><table>
-                <th colspan="2">Main table column 2</th>
-                <tr>
-                    <td>Inner Table row 1 column 1</td>
-                    <td>Inner Table row 1 column 2</td>
-                </tr>
-                <tr>
-                    <td>Inner Table row 2 column 1</td>
-                    <td>Inner Table row 2 column 2</td>
-                </tr>
-                <tr>
-                    <td>Inner Table row 3 column 1</td>
-                    <td>Inner Table row 3 column 2</td>
-                </tr>
-            </table></td>
-        </tr>
-        <tr>
-            <th>Main Table Row 2 column 1</th>
-            <td>Main Table row 2 column 2</td>
-        </tr>
+      <caption>
+        Nested Tables
+      </caption>
+      <tr>
+        <td>Main Table row 1 column 1</td>
+        <td>
+          <table>
+            <th colspan="2">Main table column 2</th>
+            <tr>
+              <td>Inner Table row 1 column 1</td>
+              <td>Inner Table row 1 column 2</td>
+            </tr>
+            <tr>
+              <td>Inner Table row 2 column 1</td>
+              <td>Inner Table row 2 column 2</td>
+            </tr>
+            <tr>
+              <td>Inner Table row 3 column 1</td>
+              <td>Inner Table row 3 column 2</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <th>Main Table Row 2 column 1</th>
+        <td>Main Table Row 2 column 2</td>
+      </tr>
     </table>
-    
-</body>
+  </body>
 </html>
